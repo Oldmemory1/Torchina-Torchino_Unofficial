@@ -37,7 +37,7 @@ import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-@Mod(modid=Torcherina.MOD_ID, name=Torcherina.MOD_NAME, version="7.9", acceptedMinecraftVersions="[1.12,1.12.2]", useMetadata=true, dependencies = "before:carryon")
+@Mod(modid=Torcherina.MOD_ID, name=Torcherina.MOD_NAME, version="7.10", acceptedMinecraftVersions="[1.12,1.12.2]", useMetadata=true, dependencies = "before:carryon")
 public class Torcherina 
 {
 	public static boolean logPlacement;
