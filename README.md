@@ -3,5 +3,5 @@
 
 fixed version: we fix chinese translation and modify modid to avoid detected by other mods.
 
-Version: 7.8-unofficial
+Version: 7.9-unofficial
 

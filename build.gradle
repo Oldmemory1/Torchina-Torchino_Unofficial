@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '7.8-unofficial'
+version = '7.9-unofficial'
 group = 'com.sci.torchina' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Torchino'
 
