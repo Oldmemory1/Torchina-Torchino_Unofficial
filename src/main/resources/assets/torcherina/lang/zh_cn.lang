@@ -1,0 +1,8 @@
+tile.torcherina.torcherina.name="加速火把"
+tile.torcherina.compressed_torcherina.name="压缩加速火把"
+tile.torcherina.double_compressed_torcherina.name="二重压缩加速火把"
+tile.torcherina.lanterina.name="加速南瓜灯"
+tile.torcherina.compressed_lanterina.name="压缩加速南瓜灯"
+tile.torcherina.double_compressed_lanterina.name="二重压缩加速南瓜灯"
+
+key.torcherina.useage_key="加速火把修正"

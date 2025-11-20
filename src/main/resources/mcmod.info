@@ -1,7 +1,7 @@
 [
 	{
-		"modid": "torcherino",
-		"name": "Torcherino",
+		"modid": "torcherina",
+		"name": "Torcherina",
 		"description": "Simple mod that adds OP torches.",
 		"version": "7.4",
 		"mcversion": "1.11.2",

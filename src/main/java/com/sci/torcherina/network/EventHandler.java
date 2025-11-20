@@ -1,9 +1,9 @@
-package com.sci.torcherino.network;
+package com.sci.torcherina.network;
 
-import com.sci.torcherino.Torcherino;
-import com.sci.torcherino.blocks.blocks.BlockLanterino;
-import com.sci.torcherino.blocks.blocks.BlockTorcherino;
-import com.sci.torcherino.blocks.tiles.TileTorcherino;
+import com.sci.torcherina.Torcherina;
+import com.sci.torcherina.blocks.blocks.BlockLanterina;
+import com.sci.torcherina.blocks.blocks.BlockTorcherina;
+import com.sci.torcherina.blocks.tiles.TileTorcherina;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -47,12 +47,12 @@ public class EventHandler
 		EntityPlayer player = event.getEntityPlayer();
 		Block blockClicked = event.getWorld().getBlockState(event.getPos()).getBlock();
 		TileEntity tile = event.getWorld().getTileEntity(event.getPos());
-		if(tile == null || !(tile instanceof TileTorcherino)) return;
+		if(tile == null || !(tile instanceof TileTorcherina)) return;
 		if(!event.getWorld().isRemote)
 		{
-			TileTorcherino torch = (TileTorcherino) tile;
-	        if(Torcherino.keyStates.get(player) == null) torch.changeMode(false);
-	        else torch.changeMode(Torcherino.keyStates.get(player).booleanValue()==true);
+			TileTorcherina torch = (TileTorcherina) tile;
+	        if(Torcherina.keyStates.get(player) == null) torch.changeMode(false);
+	        else torch.changeMode(Torcherina.keyStates.get(player).booleanValue()==true);
 	        player.sendStatusMessage(torch.getDescription(), true);
 		}
 		event.setUseBlock(Event.Result.DENY);

@@ -1,8 +1,8 @@
-package com.sci.torcherino;
+package com.sci.torcherina;
 
-import com.sci.torcherino.blocks.ModBlocks;
-import com.sci.torcherino.network.EventHandler;
-import com.sci.torcherino.network.KeyHandler;
+import com.sci.torcherina.blocks.ModBlocks;
+import com.sci.torcherina.network.EventHandler;
+import com.sci.torcherina.network.KeyHandler;
 
 import net.minecraftforge.common.MinecraftForge;
 

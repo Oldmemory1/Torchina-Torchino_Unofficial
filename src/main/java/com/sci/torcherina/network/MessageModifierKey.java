@@ -1,6 +1,6 @@
-package com.sci.torcherino.network;
+package com.sci.torcherina.network;
 
-import com.sci.torcherino.Torcherino;
+import com.sci.torcherina.Torcherina;
 
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayer;
@@ -31,7 +31,7 @@ public class MessageModifierKey implements IMessage, IMessageHandler<MessageModi
 	public MessageModifierKey onMessage(MessageModifierKey msg, MessageContext ctx)
 	{
 		EntityPlayer player = ctx.getServerHandler().player;
-		if(Torcherino.keyStates.get(player) == null || Torcherino.keyStates.get(player).booleanValue() != msg.pressed) Torcherino.keyStates.put(player, new Boolean(msg.pressed));
+		if(Torcherina.keyStates.get(player) == null || Torcherina.keyStates.get(player).booleanValue() != msg.pressed) Torcherina.keyStates.put(player, new Boolean(msg.pressed));
 		return null;
 	}
 }

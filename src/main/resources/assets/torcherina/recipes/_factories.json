@@ -1,0 +1,7 @@
+{
+	"conditions": {
+		"torcherina_overpowered": "com.sci.torcherina.TorcherinaConditionFactory",
+		"compressed_torcherina_enabled": "com.sci.torcherina.TorcherinaConditionFactory",
+		"double_compressed_torcherina_enabled": "com.sci.torcherina.TorcherinaConditionFactory"
+	}
+}
