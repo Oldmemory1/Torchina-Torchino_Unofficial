@@ -1,0 +1,21 @@
+{
+	"conditions": [{
+		"type": "torcherina:torcherina_overpowered",
+		"value": false
+	}],
+	"result": {
+		"item": "torcherina:blocktorcherina"
+	},
+	"pattern" : [
+		"SCS",
+		"CTC",
+		"SCS"
+	],
+	"type" : "minecraft:crafting_shaped",
+	"group": "torcherina:blocktorcherina",
+	"key" : {
+		"C": {"item": "minecraft:clock"},
+		"T": {"item": "minecraft:torch"},
+		"S": {"item": "minecraft:nether_star"}
+	}
+}   

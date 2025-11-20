@@ -1,0 +1,16 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+	   "model": "torcherina:blocklanterina",
+	   "textures": {
+            "front": "torcherina:blocks/lanterina"
+        }
+	},
+    "variants": {
+        "facing=north": { "y": 0},
+        "facing=east":  { "y": 90 },
+        "facing=south": { "y": 180 },
+        "facing=west":  { "y": 270 },
+        "inventory": { "model": "torcherina:blocklanterina" }
+    }
+}
